@@ -1,8 +1,8 @@
 # usb3-multiport-hub
 
-An open-source USB 3.2 Gen 2 (10 Gbps) multiport hub & docking station — designed in KiCad 9.
+An open-source USB 3.2 Gen 2 (10 Gbps) multiport hub & docking station — designed in KiCad 10.
 
-![Board Layout](images/board_top.svg)
+![Board Layout](images/board_layout.svg)
 
 ## Overview
 
@@ -110,9 +110,7 @@ usb3-multiport-hub/
 
 ## Getting Started
 
-### Prerequisites
 
-- [KiCad 9](https://www.kicad.org/download/) or later
 
 ### Opening the Project
 
