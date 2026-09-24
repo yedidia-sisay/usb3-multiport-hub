@@ -2,7 +2,7 @@
 
 An open-source USB 3.2 Gen 2 (10 Gbps) multiport hub & docking station — designed in KiCad 10.
 
-![Board Layout](images/board_layout.svg)
+![Board Layout](images/board_top_cli.svg)
 
 ## Overview
 
