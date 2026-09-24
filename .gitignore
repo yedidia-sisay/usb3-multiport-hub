@@ -1,0 +1,48 @@
+# KiCad backup files
+*.kicad_pcb.bak
+*.kicad_sch.bak
+*.kicad_prl
+*-backups/
+_autosave-*
+
+# Restore backups
+_restore_backup_*/
+
+# KiCad lock files
+*.lck
+
+# Freerouting intermediate files
+*.dsn
+*.ses
+*.frb
+
+# DRC / ERC reports (regenerable)
+drc_report.txt
+*_drc_violations.json
+
+# MCP backups
+.mcp-backups/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Agent state
+.agents/
+.history/
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output directory (gerbers, BOM, etc.) — uncomment to track manufacturing outputs
+# output/
+
+# Logs
+logs/

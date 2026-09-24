@@ -1,0 +1,321 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2053e1d3-35f4-4b23-b044-466b227264ba")
+	(paper "A4")
+	(lib_symbols)
+	(label ""
+		(at 54.61 52.07 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "795b73a3-f597-4d6f-891b-519500156abe")
+	)
+	(label "HUB"
+		(at 53.34 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1407ef7-f688-4e96-9498-9cfc78743261")
+	)
+	(sheet
+		(at 130.81 99.06)
+		(size 72.39 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "20e1fce5-bf4a-46b3-8c86-c384a50f0012")
+		(property "Sheetname" "PORT23"
+			(at 130.81 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "port23.kicad_sch"
+			(at 130.81 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_hub_2"
+				(path "/2053e1d3-35f4-4b23-b044-466b227264ba"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 21.59)
+		(size 72.39 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2cedbf42-ed74-4903-866a-200ae9b7338d")
+		(property "Sheetname" "HUB"
+			(at 24.13 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hub.kicad_sch"
+			(at 24.13 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_hub_2"
+				(path "/2053e1d3-35f4-4b23-b044-466b227264ba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 22.86)
+		(size 66.04 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5342df98-ec45-4a72-8a91-3802c042a50d")
+		(property "Sheetname" "Power"
+			(at 123.19 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 123.19 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_hub_2"
+				(path "/2053e1d3-35f4-4b23-b044-466b227264ba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 102.87)
+		(size 48.26 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "86ac9798-78a2-4103-b874-be700fb89b7b")
+		(property "Sheetname" "USB_C_UP_PORT"
+			(at 223.52 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "upport.kicad_sch"
+			(at 223.52 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_hub_2"
+				(path "/2053e1d3-35f4-4b23-b044-466b227264ba"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 100.33)
+		(size 78.74 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d7053157-da9f-4503-b9ee-080f07e89b98")
+		(property "Sheetname" "USB_DOWN_PORT1"
+			(at 27.94 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PORT1.kicad_sch"
+			(at 27.94 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_hub_2"
+				(path "/2053e1d3-35f4-4b23-b044-466b227264ba"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 24.13)
+		(size 59.69 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "defcb47c-7fd5-40b9-9351-f164ee2e9c1a")
+		(property "Sheetname" "HDMI"
+			(at 205.74 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "port_4_5.kicad_sch"
+			(at 205.74 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 205.74 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "usb_hub_2"
+				(path "/2053e1d3-35f4-4b23-b044-466b227264ba"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
